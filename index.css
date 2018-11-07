@@ -1,0 +1,127 @@
+body{
+    margin:0px;
+}
+
+.banner{
+    background: url('./nyc.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    margin: 0px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.income{
+    width: 350px;
+    margin: 0 auto;
+    background: rgb(47, 158, 47);
+    overflow: hidden;
+}
+
+.expenses{
+     width: 350px;
+     margin: 10px auto;
+     margin-bottom: 2%;
+     background: red;
+     overflow: hidden;
+}
+
+.left{
+float: left;
+margin: 15px;
+}
+
+.right{
+float: right;
+margin: 10px;
+}
+
+.test{
+    padding-bottom: 5%;
+}
+
+.form{
+    max-width: 900px;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+.Color{
+    background: rgba(114, 114, 114, 0.158);
+    padding: 10px;
+}
+
+.select{
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+    text-align: center;
+    background: rgb(240, 240, 240);
+}
+
+.description{
+     height: 40px;
+     width: 250px;
+     margin: 5px;
+     padding: 5px;
+     border-radius: 4px;
+     border: none;
+     
+}
+
+.amount{
+    height: 40px;
+    width: 190px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.submit{
+       height: 40px;
+       width: 100px;
+        margin: 5px;
+       border-radius: 4px;
+       border: none;
+       background: rgb(161, 255, 219);
+}
+
+.testDiv{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+}
+
+.descrip{
+   text-align: left;
+}
+
+
+.amount1{
+text-align: right;
+   
+}
+
+.Date{
+   text-align: center;
+    
+}
+
+.in{
+    border: 1px solid rgba(0, 0, 0, 0.089);
+}
+
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    word-break: break-all;
+}
